@@ -1,0 +1,44 @@
+<html>
+<head>
+
+	<title>AI Object Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background = "https://br.freepik.com/fotos-gratis/midia-remixada-da-montanha-do-ceu-estrelado-da-natureza-da-galaxia_17226410.htm#query=walpaper&position=0&from_view=keyword&track=sph">
+<center>
+  <h1 class="btn btn-info heading">AI Object FInder
+    <br>
+    <span class = "note">para detectar los obejetos escriba el nombre de algun objeto.</span>
+  </h1>
+  <br>
+  <br>
+  <input type = "text" placeholder = "Type the Object Name" id = "object_name">
+  <br>
+  <br>
+  <button class = "btn btn-success" id = "start" onclick = "start()">START</button>
+  <br>
+  <br>
+  <h3 class = "btn btn-danger" id = "status"></h3>
+  <br>
+  <br>
+  <h3 class = "btn btn-warning" id = "check_status"></h3>
+  <br>
+  <br>
+</center>
+
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

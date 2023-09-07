@@ -1,0 +1,53 @@
+body{
+    background-size: cover;
+
+}
+
+.heading{
+    font-size: 30px;
+    font-family: Comic Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0px;
+}
+
+canvas{
+    border: 2px solid chartreuse;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
+
+#bta{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aqua;
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+    color: red;
+    line-height: 3;
+}
+
+#status, #number_of_objects{
+font-size: 20px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+color: yellow;
+
+}
+
+h3{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+
+p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
